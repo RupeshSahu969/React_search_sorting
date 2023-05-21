@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
+
 const useSortableData = (items, config = null) => {
   const [sortConfig, setSortConfig] = React.useState(config);
 
@@ -90,7 +91,6 @@ const ProductTable = (props) => {
                 value={search}
                 onChange={handleSearch}
               />
-            
             </th>
           </th>
         </tr>
@@ -124,7 +124,6 @@ export default function App() {
           { id: 4, name: "Heavy Cream", price: 3.9, stock: 9 },
           { id: 5, name: "Butter", price: 0.9, stock: 99 },
           { id: 6, name: "Sour Cream ", price: 2.9, stock: 86 },
-         
         ]}
       />
     </div>
